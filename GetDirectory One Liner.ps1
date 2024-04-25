@@ -1,0 +1,1 @@
+$predir = "C:\Users\Reece Williams\Documents\PowershellTest\" ; $directory = Get-ChildItem $predir ; foreach ($i in $directory){$tostring = $i.ToString() ; $merged = "File " + "'" + $predir + $tostring + "'"; Write-Host $merged ; Add-Content -Path "OUTPUT FILE PATH" -Value $merged} ; Read-Host -Prompt "Press Enter to exit"
